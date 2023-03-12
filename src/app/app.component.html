@@ -1,0 +1,27 @@
+<p>Acessando Serviço REST</p>
+
+<input type="button" value="Hello Spring"  (click)="visualizarTXT()"/>  
+<input type="button" value="Primitivo - numero" (click)="clicaNum()"/> 
+<input type="button" value="Visitante - serviço simples" (click)="servicoSimples()"/> 
+
+<label for="item-input">Posição:</label>
+<input type="number" id="item-input" #posicao>
+<button type="button" (click)="consultaPorId(posicao.value)">Add to parent's list</button>
+
+{{valor}}
+
+{{visitante?.nome}}
+<!--
+<input type="button" value="Executa no servidor" (click)="clicados()"/> 
+<input type="button" value="Primitivo - numero" (click)="clicaNum()"/> 
+<input type="button" value="Serviço Angular" (click)="clicando()"/>
+
+<input type="button" value="Listar" (click)="listar()"/>
+<input type="number" placeholder="consultar, excluir, alterar" name="ind" [(ngModel)]="ind"/> 
+<input type="button" value="Consultar" (click)="consultar()"/>
+<input type="button" value="Alterar" (click)="alterar()"/>
+<input type="button" value="Inserir" (click)="inserir()"/>
+<input type="button" value="Excluir" (click)="excluir()"/>
+-->
+
+
